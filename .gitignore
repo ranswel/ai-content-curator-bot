@@ -1,0 +1,27 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Резервные копии
+*_backup.py
+*.bak
+
+# IDE
+.vscode/
+.idea/
+
+# Логи и результаты генерации
+*.log
+outputs/
+generated/
